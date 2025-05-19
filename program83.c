@@ -25,7 +25,6 @@ void Display(int iNo)
     for(iCnt = -iNo; iCnt <= 0; iCnt++)     //  N
     {
         printf("%d\t",iCnt);
-        //printf("*\t");
     }
     
     iCnt = 0;

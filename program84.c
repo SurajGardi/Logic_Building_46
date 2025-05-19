@@ -25,7 +25,6 @@ void Display(int iNo)
     for(iCnt = -iNo; iCnt <= iNo; iCnt++)     //  2N
     {
         printf("%d\t",iCnt);
-        //printf("*\t");
     }
     printf("\n");
 }
@@ -41,6 +40,6 @@ int main()
     return 0;
 }
 
-// Time Complexity O(2N)
+// Time Complexity O(N)
 // N is a Natural Number
 // Whhere N > = 0 and N <= Infinity
