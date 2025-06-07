@@ -28,11 +28,11 @@ int main()
 
     if(bRet == true)
     {
-        printf("%c is capital",iValue);
+        printf("%c is capital",cValue);
     }
     else
     {
-        printf("%c is not capital",iValue);
+        printf("%c is not capital",cValue);
     }
     return 0;
 }
