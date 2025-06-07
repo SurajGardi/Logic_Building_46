@@ -1,4 +1,4 @@
-#include<stdio.h>               // Palindrome String without Flag
+#include<stdio.h>               // Palindrome String by using without Flag
 #include<stdbool.h>
 
 
