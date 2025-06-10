@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;     // Generic import  
 
 class program208
 {
@@ -12,9 +12,14 @@ class program208
 
         char Arr[] = name.toCharArray();
 
-        for(iCnt = 0; iCnt < Arr.length; iCnt++)
+        // for(iCnt = 0; iCnt < Arr.length; iCnt++)
+        // {
+        //     System.out.println(Arr[iCnt]);
+        // } 
+        
+        for(char C : Arr)
         {
-            System.out.println(Arr[iCnt]);
-        }       
+            System.out.print(C+" ");
+        }
     }
 }
